@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //**************** APIキーの設定とSDKの初期化 **********************
-        NCMB.initialize(this.getApplicationContext(), "YOUR_APPLICATION_KEY", "YOUR_CLIENT_KEY");
+        NCMB.initialize(this.getApplicationContext(), "03a6b582f54eed71d427418d3d43a6ca5b446274f699f69e034ad71d5da159b7", "5b7ffcaf8995c45ed5134dde48cb59251122f4a90c49b4920795f5bd59b87302");
 
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
